@@ -19,7 +19,7 @@
             double p = P / 2;
             
             double S = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
-            Console.WriteLine($"Площадь: {S:F2}");
+            Console.WriteLine($"Площадь: {S:F3}");
         }
     }
 }
